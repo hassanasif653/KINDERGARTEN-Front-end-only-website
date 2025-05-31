@@ -716,6 +716,22 @@ body {
   margin: .7rem 0;
 }
 
+/* Style email links */
+.contact a[href^="mailto:"] {
+    color: orangered;
+}
+
+/* Style phone links */
+.contact a[href^="tel:"] {
+   color: orangered;
+}
+
+/* Hover styles for both */
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
 .contact .row form .inputBox input:focus,
 .contact .row form textarea:focus{
   border: 0.1rem solid var(--primary-color);
